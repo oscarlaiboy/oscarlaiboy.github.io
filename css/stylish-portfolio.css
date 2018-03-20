@@ -11,7 +11,8 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background-color: #E4F4F4;
+    background-color: #057dcd;
+   
 }
 
 body {
@@ -159,7 +160,7 @@ nav {
 
 @media (max-width: 750px) {
   nav {
-    background-color: rgba(48, 51, 58, 1);
+    background-color: rgba(0, 51, 102, 1);
     width: 70%;
     right: -55em;
     height: 100%;
@@ -207,8 +208,9 @@ body.nav-expanded {
 .main-menu li {
     display: inline;
     font-size: 18px;
-    padding: 12px;
-    text-shadow: 2px 2px 5px #000000;
+    padding: 25px;
+    text-shadow: 1px 1px 2px #004a94;
+    
 }
 .list-unstyled {
     padding-left: 0;
@@ -392,7 +394,9 @@ body.nav-expanded {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: rgba(43, 48, 55, 1);
+    /*
+    background: rgba(0, 74, 148, 1); */
+    background: linear-gradient(to right, rgba(0,74,148,1), rgba(0,51,102,0));
   }
 }
 /* Mobile */
@@ -428,6 +432,9 @@ body.nav-expanded {
   .fa-lg {
     font-size: 36px;
     margin-top: 10px;
+  }
+  .project {
+    background: linear-gradient(rgba(0,51,102,0), rgba(0,51,102,1));
   }
 }
 
@@ -589,7 +596,7 @@ a.resume-item:hover{
 
 .portfolio {
     padding: 50px 0;
-    background-color: #E4F4F4;
+    background-color: #fff;
 }
 
 .portfolio-item {
@@ -603,6 +610,29 @@ a.resume-item:hover{
 .img-portfolio:hover {
     opacity: 0.8;
 }
+
+.divider {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.project {
+  background: linear-gradient(to right, rgba(0,51,102,0), rgba(0,51,102,1));
+  padding-top: 50px;
+  padding-bottom: 25px;
+
+}
+.grow:hover
+{
+  opacity: .8;
+  /*
+        transition-timing-function: ease-in-out;
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        */
+}
+
 
 /* Call to Action */
 
@@ -638,8 +668,11 @@ a.resume-item:hover{
 /* Footer */
 
 footer {
-    padding: 25px 0;
-    background: rgba(43, 48, 55, 1);
+    padding: 70px;
+    /*
+    background: rgba(0, 51, 102, 1);
+    */
+    background: linear-gradient(to right, rgba(0,51,102,1), rgba(0,51,102,0));
     color: #fff;
 }
 
@@ -651,3 +684,12 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+/*
+.odd {
+  position: relative; right: 150px;
+}
+
+.even {
+  position: relative; left: 500px;
+}
+*/

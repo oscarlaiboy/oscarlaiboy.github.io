@@ -11,7 +11,7 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background-color: #057dcd;
+    background: linear-gradient(to right, rgba(195, 224, 229,1), rgba(170,205,229 ,1));
    
 }
 
@@ -396,7 +396,7 @@ body.nav-expanded {
     padding: 0;
     /*
     background: rgba(0, 74, 148, 1); */
-    background: linear-gradient(to right, rgba(0,74,148,1), rgba(0,51,102,0));
+    background: linear-gradient(to right, rgba(195, 224, 229,1), rgba(170,205,229 ,1));
   }
 }
 /* Mobile */
@@ -434,7 +434,7 @@ body.nav-expanded {
     margin-top: 10px;
   }
   .project {
-    background: linear-gradient(rgba(0,51,102,0), rgba(0,51,102,1));
+    background: linear-gradient(to right, rgba(195, 224, 229,1), rgba(170,205,229 ,1));
   }
 }
 
@@ -608,7 +608,7 @@ a.resume-item:hover{
 }
 
 .img-portfolio:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .divider {
@@ -617,14 +617,14 @@ a.resume-item:hover{
 }
 
 .project {
-  background: linear-gradient(to right, rgba(0,51,102,0), rgba(0,51,102,1));
+  background: linear-gradient(to right, rgba(228,239,233,0), rgba(145,194,226,1));
   padding-top: 50px;
   padding-bottom: 25px;
 
 }
 .grow:hover
 {
-  opacity: .8;
+  opacity: .9;
   /*
         transition-timing-function: ease-in-out;
         -webkit-transform: scale(1.05);
@@ -672,7 +672,7 @@ footer {
     /*
     background: rgba(0, 51, 102, 1);
     */
-    background: linear-gradient(to right, rgba(0,51,102,1), rgba(0,51,102,0));
+    background: linear-gradient(to right, rgba(195, 224, 229,1), rgba(170,205,229 ,1));
     color: #fff;
 }
 
